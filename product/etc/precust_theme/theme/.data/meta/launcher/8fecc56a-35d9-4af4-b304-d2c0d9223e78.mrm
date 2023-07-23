@@ -1,0 +1,57 @@
+{
+  "localId": "8fecc56a-35d9-4af4-b304-d2c0d9223e78",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "5a1e11978eaa72d13fa5ef224390866ec7cc8bbc",
+  "platform": 10,
+  "size": 478939,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "fallback": "MIUI",
+    "zh_CN": "MIUI"
+  },
+  "designers": {
+    "fallback": "MIUI",
+    "zh_CN": "MIUI"
+  },
+  "titles": {
+    "fallback": "米奇定制主题",
+    "zh_CN": "米奇定制主题"
+  },
+  "descriptions": {
+    "fallback": "1",
+    "zh_CN": "Xiaomi Civi 3 迪士尼100周年限定版"
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_launcher_0.jpg",
+      "preview_launcher_1.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_launcher_0.jpg",
+      "preview_launcher_1.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [
+    {
+      "localId": "23fcd50c-bf8d-47fb-8bd4-26c0ae6b0504",
+      "resourceCode": "theme",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "subResources": [],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": null,
+  "miuiAdapterVersion": "2.0"
+}

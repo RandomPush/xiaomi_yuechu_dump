@@ -1,0 +1,104 @@
+{
+  "localId": "23fcd50c-bf8d-47fb-8bd4-26c0ae6b0504",
+  "onlineId": null,
+  "assemblyId": null,
+  "productId": null,
+  "hash": "aaf01b55dfae67dca83dac52664c36882d5a8cb8",
+  "platform": 10,
+  "size": 24214281,
+  "updatedTime": 0,
+  "version": "1.0",
+  "authors": {
+    "zh_CN": "MIUI",
+    "fallback": "MIUI"
+  },
+  "designers": {
+    "zh_CN": "MIUI",
+    "fallback": "MIUI"
+  },
+  "titles": {
+    "zh_CN": "米奇定制主题",
+    "fallback": "米奇定制主题"
+  },
+  "descriptions": {
+    "zh_CN": "Xiaomi Civi 3 迪士尼100周年限定版",
+    "fallback": "1"
+  },
+  "builtInThumbnails": {
+    "fallback": [
+      "preview_lockscreen_0.jpg",
+      "preview_launcher_0.jpg",
+      "preview_launcher_1.jpg",
+      "preview_icons_0.jpg",
+      "preview_icons_1.jpg",
+      "preview_icons_2.jpg",
+      "preview_icons_2x3_0.jpg",
+      "preview_icons_4x3_0.jpg"
+    ]
+  },
+  "builtInPreviews": {
+    "fallback": [
+      "preview_lockscreen_0.jpg",
+      "preview_launcher_0.jpg",
+      "preview_launcher_1.jpg",
+      "preview_icons_0.jpg",
+      "preview_icons_1.jpg",
+      "preview_icons_2.jpg",
+      "preview_icons_2x3_0.jpg",
+      "preview_icons_4x3_0.jpg"
+    ]
+  },
+  "thumbnails": [],
+  "previews": [],
+  "parentResources": [],
+  "subResources": [
+    {
+      "localId": "582da733-8389-4bf6-a547-52e643e630cb",
+      "resourceCode": "wallpaper",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "3947ce4f-9f6f-40db-b12c-2506730b71ad",
+      "resourceCode": "lockstyle",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "8fecc56a-35d9-4af4-b304-d2c0d9223e78",
+      "resourceCode": "launcher",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "5b449592-f033-4708-ac1e-f52b37459162",
+      "resourceCode": "lockscreen",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "7c0a71aa-4c22-415d-9c59-41f6dad30882",
+      "resourceCode": "aod",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    },
+    {
+      "localId": "c13f1f84-8eb6-4f0d-9f84-f73c7f23f657",
+      "resourceCode": "icons",
+      "extraMeta": {},
+      "metaPath": null,
+      "contentPath": null
+    }
+  ],
+  "extraMeta": {},
+  "metaPath": null,
+  "contentPath": null,
+  "rightsPath": null,
+  "screenRatio": null,
+  "miuiAdapterVersion": "2.0"
+}
