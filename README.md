@@ -1,0 +1,14 @@
+# missi_phone_cn-user 13 TP1A.220624.014 V14.0.9.0.TMICNXM release-keys
+- manufacturer: xiaomi
+- platform: commonmt6895
+- codename: yuechu
+- flavor: missi_phone_cn-user
+- release: 13
+- id: TP1A.220624.014
+- incremental: V14.0.9.0.TMICNXM
+- tags: release-keys
+- fingerprint: Xiaomi/yuechu/yuechu:12/SP1A.210812.016/V14.0.9.0.TMICNXM:user/release-keys
+- is_ab: true
+- brand: Xiaomi
+- branch: missi_phone_cn-user-13-TP1A.220624.014-V14.0.9.0.TMICNXM-release-keys
+- repo: xiaomi_yuechu_dump

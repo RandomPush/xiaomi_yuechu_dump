@@ -1,0 +1,116 @@
+{
+    "version": "1.0",
+    "product": "yuechu",
+    "threshold": {
+        "lowAdj_threshold": 0,
+        "3rd_lowAdj_threshold": 50,
+        "update_state_delay_ms": 5000,
+        "kill_lowprio_sysapp_threshlod": 10240,
+        "kill_highprio_sysapp_threshlod": 30720,
+        "intercept_restart_time": 3000,
+        "protect_locktask_num": 2,
+        "kill_tag": 31
+    },
+    "support": {
+        "cam_boost_early_enable": true,
+        "inhibit_3rdprocs_enable": true,
+        "perceptible_support": true,
+        "skip_camera_boost": true,
+        "oom_update_support": true,
+        "lmkd_perceptible_support": true
+    },
+    "oom": {
+        "oom_level": "23040:0,38400:100,69120:200,102400:300,179200:800,307200:900"
+    },
+    "configs": [
+        {
+            "name": "protect_list",
+            "config": [
+                "com.tencent.mobileqq",
+                "com.ss.android.lark.kami"
+            ]
+        },
+        {
+            "name": "perceptible_list",
+            "config": [
+                "com.xiaomi.bluetooth",
+                "com.miui.securitycenter:ui",
+                "com.google.process.gservices",
+                "com.milink.service",
+                "com.miui.mishare.connectivity",
+                "com.miui.presale",
+                "com.android.settings",
+                "com.android.updater"
+            ]
+        },
+        {
+            "name": "white_list",
+            "config": [
+                "com.tencent.mm",
+                "com.miui.gallery",
+                "com.miui.personalassistant",
+                "com.miui.screenrecorder",
+                "com.android.camera",
+                "com.miui.miwallpaper",
+                "com.miui.home",
+                "com.tencent.mm:push",
+                "com.tencent.mobileqq:MSF",
+                "com.ss.android.lark.kami:wschannel",
+                "android.process.media",
+                "com.android.traceur",
+                "com.phonetest.application:CameraMemoryWatcher",
+                "android.camera.cts",
+                "android.camera.cts:errorLoggingServiceProcess",
+                "com.miui.avpressuretest"
+            ]
+        },
+        {
+            "name": "inhibit_app_list",
+            "config": [
+                "com.google.android.providers.media.module",
+                "com.sohu.inputmethod.sogou.xiaomi",
+                "com.google.process.gservices",
+                "com.google.android.gms",
+                "com.google.android.gms.persistent",
+                "com.google.process.gapps",
+                "com.android.vending",
+                "<pre-initialized>",
+                "com.lbe.security.miui",
+                "com.mi.health",
+                "com.milink.service",
+                "com.miui.analytics",
+                "com.miui.daemon",
+                "com.miui.mishare.connectivity",
+                "com.miui.securitycenter",
+                "com.miui.voiceassist",
+                "com.xiaomi.bluetooth"
+            ]
+        }
+    ],
+    "config_cn": [
+        {
+            "name": "intercept_restart_list",
+            "config": [
+                "com.xiaomi.bsp.gps.nps",
+                "com.android.settings:remote",
+                "com.google.process.gservices",
+                "com.google.android.gms",
+                "com.google.android.gms.persistent",
+                "com.google.process.gapps",
+                "com.android.vending"
+            ]
+        },
+        {
+            "name": "inhibit_app_list",
+            "config": [
+                "com.google.android.providers.media.module",
+                "com.sohu.inputmethod.sogou.xiaomi",
+                "com.google.process.gservices",
+                "com.google.android.gms",
+                "com.google.android.gms.persistent",
+                "com.google.process.gapps",
+                "com.android.vending"
+            ]
+        }
+    ]
+}
